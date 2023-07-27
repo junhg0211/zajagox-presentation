@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <g>
+    <polygon points="49.435 333.738 132.646 159.938 376.366 159.938 459.578 333.738 49.435 333.738" fill="#fff"/>
+    <path d="m374.792,162.438l80.817,168.8H53.404l80.817-168.8h240.571m3.15-5h-246.87l-85.605,178.8h418.08l-85.605-178.8h0Z"/>
+  </g>
+  <g>
+    <g>
+      <rect x="210.592" y="212.267" width="34.368" height="34.367" fill="#fff"/>
+      <path d="m244.46,212.766v33.367h-33.367v-33.367h33.367m1-1h-35.367v35.367h35.367v-35.367h0Z"/>
+    </g>
+    <g>
+      <circle cx="219.66" cy="237.567" r="4.058"/>
+      <circle cx="227.776" cy="229.45" r="4.058"/>
+      <circle cx="235.893" cy="221.333" r="4.058"/>
+    </g>
+  </g>
+  <g>
+    <rect x="261.693" y="229.45" width="35.367" height="35.367"/>
+    <g>
+      <circle cx="271.26" cy="255.25" r="4.058" fill="#fff"/>
+      <circle cx="271.26" cy="239.017" r="4.058" fill="#fff"/>
+      <circle cx="287.493" cy="255.25" r="4.058" fill="#fff"/>
+      <circle cx="287.493" cy="239.017" r="4.058" fill="#fff"/>
+    </g>
+  </g>
+  <circle cx="455.575" cy="159.813" r="35.62" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+  <circle cx="254.506" cy="84.417" r="35.62" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+  <circle cx="254.506" cy="396.687" r="35.62" fill="#ffaf2e" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+  <circle cx="45.466" cy="159.813" r="35.62" fill="#6b6bb5" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+</svg>

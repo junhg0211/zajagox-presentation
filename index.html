@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>자야고시 플레이 방법</title>
+    <link rel="stylesheet" href="./style.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="presentation.js"></script>
+</head>
+<body>
+
+<div class="hud faded">
+    0 lesé 0 tia
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Zaägox-Potysasisemüsie</h3>
+        <h1>자야고시 카드게임</h1>
+        <p>자야고시 플레이 방법 소개 프레젠테이션</p>
+        <p>클릭으로 화면 전환하기, Shift로 흐림 해제하기!</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Zaägox u kavùll</h3>
+        <h1>자야고시에 대해서</h1>
+        <p>자야고시는 <strong>디도포이카스</strong> 덱을 이용한 카드게임이다.<br>
+            카드 네 장을 빨리 모으는 사람이 게임에서 승리한다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/01.svg" class="card">
+            <img src="./res/img/cards/10.svg" class="card">
+            <img src="./res/img/cards/19.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+            <img src="./res/img/cards/33.svg" class="card">
+        </div>
+        <p><em>최강 족보! 색5종 강연결 수5종 양4종 → 4096점</em></p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Didopoikas</h3>
+        <h1>디도포이카스</h1>
+        <p>디도포이카스 카드는 적, 황, 녹, 청의 <strong>4가지 색</strong>과<br>
+            <strong>1부터 8까지의 수</strong>로 이루어져 있으며, 총 4장의 <strong>공패(空牌)</strong>가 있다.</p>
+        <table>
+            <tr>
+                <td><img src="./res/img/cards/01.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/02.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/03.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/04.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/05.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/06.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/07.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/08.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/33.svg" class="card-small"></td>
+            </tr>
+            <tr>
+                <td><img src="./res/img/cards/09.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/10.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/11.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/12.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/13.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/14.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/15.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/16.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/34.svg" class="card-small"></td>
+            </tr>
+            <tr>
+                <td><img src="./res/img/cards/17.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/18.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/19.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/20.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/21.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/22.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/23.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/24.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/35.svg" class="card-small"></td>
+            </tr>
+            <tr>
+                <td><img src="./res/img/cards/25.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/26.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/27.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/28.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/29.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/30.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/31.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/32.svg" class="card-small"></td>
+                <td><img src="./res/img/cards/36.svg" class="card-small"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Ä Marxad</h3>
+        <h1>목표</h1>
+        <p>자야고시는 다른 사람보다 더 일찍 화려한 족보를 만들면 승리한다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/01.svg" class="card">
+            <img src="./res/img/cards/10.svg" class="card">
+            <img src="./res/img/cards/19.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+        </div>
+        <div class="no-space">
+            <img src="./res/img/cards/13.svg" class="card">
+            <img src="./res/img/cards/14.svg" class="card">
+            <img src="./res/img/cards/29.svg" class="card">
+            <img src="./res/img/cards/31.svg" class="card">
+        </div>
+        <p>위에 있는 족보는 아래쪽에 있는 족보보다 더욱 다양한 패를 모았기 때문에 더 높은 점수로 친다.<br>
+            위쪽에 있는 족보는 144점, 아래쪽에 있는 족보는 8점짜리 족보이다.
+        </p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Sesimitoda</h3>
+        <h1>플레이 방법</h1>
+        <p>자야고시는 다음 흐름으로 진행된다.</p>
+        <ol>
+            <li>패를 4장씩 받는다.</li>
+            <li>자신의 턴이 되면 중앙에서 패 한장을 가져온다.</li>
+            <li>필요없는 패를 버리거나 패쌍을 만들거나 패쌍을 숙성한다</li>
+            <li>숙성이 완료된 패쌍을 보관하여, 4장이 되면 승리한다.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Unasìe</h3>
+        <h1>준비물</h1>
+        <p>자야고시를 즐기기 위해서는 몇가지 준비물이 필요하다.</p>
+        <p>
+            일단 자야고시를 플레이할 <strong>사람 2&ndash;4명</strong>이 필요하고,<br>
+            공패 4장이 포함된 <strong>디도포이카스 덱 1개</strong>가 필요하다.
+        </p>
+        <p>선을 정하기 위해 D6 주사위 2개를 사용하기도 하지만, 꼭 필요한 것은 아니다.</p>
+        <img src="./res/img/2d6.png" alt="디도포이카스 덱과 d6 주사위 2개" style="width: 200px;">
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Tiäg 1</h3>
+        <h1>시작하기 1</h1>
+        <p>주사위를 굴려서 나온 순의 수만큼 반시계방향으로 세어서 선을 정한다.<br>
+            이때 주사위를 굴린 사람을 0으로 하여 수를 센다.</p>
+        <p>게임을 한 판 하고 다시 시작하는 경우에는 이전 게임에서 승리한 사람이 주사위를 굴린다.</p>
+        <div>
+            <td><img src="./res/img/table_dice_4.svg" style="width: 200px;"></td>
+            <td><img src="./res/img/table_dice_3.svg" style="width: 200px;"></td>
+            <td><img src="./res/img/table_dice_2.svg" style="width: 200px;"></td>
+        </div>
+        <p>위 그림에서 주황색 위치에 앉은 사람이 주사위를 굴렸을 때, 파란색 위치의 사람이 선이 된다.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Tiäg 2</h3>
+        <h1>시작하기 2</h1>
+        <p>
+            선은 카드를 섞고 참여하는 모든 사람에게 카드를 4장씩 나누어준다. 이 카드를 <strong>손패</strong>라고 한다.<br>
+            이때 나누어주고 남은 카드는 테이블 중앙에 엎어놓는다. 이 카드를 <strong>중앙패</strong>라고 한다.
+        </p>
+        <div class="no-space">
+            <img src="./res/img/cards/13.svg" class="card">
+            <img src="./res/img/cards/25.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+            <img src="./res/img/cards/36.svg" class="card">
+        </div>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Deque 1</h3>
+        <h1>턴 진행하기 1</h1>
+        <p>자신의 턴이 되면 중앙패에서 카드 한 장을 가져온다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/13.svg" class="card">
+            <img src="./res/img/cards/25.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+            <img src="./res/img/cards/36.svg" class="card">
+            <img src="./res/img/cards/12.svg" class="card" style="margin-left: 1rem;">
+        </div>
+        <p>이때, ① 필요없는 패를 버리거나, ② 패쌍을 만들거나, ③ 패쌍을 숙성할 수 있다.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Deque 2</h3>
+        <h1>턴 진행하기 2</h1>
+        <p>
+            만약 <strong>① 패 버리기</strong>를 한다면,<br>
+            필요없는 패 한 장을 선택하여 테이블 중앙에 놓는다.
+        </p>
+        <p>
+            이 패를 <strong>버림패</strong>라고 하고,<br>
+            버림패는 다른 사람이 볼 수 있도록 뒤집어 놓는다.
+        </p>
+        <div class="no-space">
+            <img src="./res/img/cards/13.svg" class="card blur">
+            <img src="./res/img/cards/25.svg" class="card blur">
+            <img src="./res/img/cards/28.svg" class="card blur">
+            <img src="./res/img/cards/36.svg" class="card">
+            <img src="./res/img/cards/12.svg" class="card blur" style="margin-left: 1rem;">
+        </div>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Deque 3</h3>
+        <h1>턴 진행하기 3</h1>
+        <p>
+            <strong>② 패쌍 만들기</strong>를 하려면 수가 같은 패가 2장 있어야 한다.<br>
+            이것을 <strong>등록</strong>이라고 한다.
+        </p>
+        <p>
+            <strong>패쌍</strong>은 카드 두 장을 자신의 앞에 다른 사람이 볼 수 있도록 함께 뒤집어놓는 것을 말한다.<br>
+            패쌍을 이루는 패를 <strong>패쌍패</strong>라고 한다.
+        </p>
+        <div class="no-space">
+            <img src="./res/img/cards/13.svg" class="card blur">
+            <img src="./res/img/cards/25.svg" class="card blur">
+            <img src="./res/img/cards/28.svg" class="card">
+            <img src="./res/img/cards/36.svg" class="card blur">
+            <img src="./res/img/cards/12.svg" class="card" style="margin-left: 1rem;">
+        </div>
+        <p>위 손패의 경우 4패가 2장 있으므로 4로 패쌍을 만들 수 있다.</p>
+        <p>
+            패쌍을 만들어서 패쌍 숙성이 완료되면 패쌍패 중 하나를 보관할 수 있는데,<br>
+            바로 이 <strong>보관패</strong>로 족보싸움을 하게 된다.
+        </p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Deque 4</h3>
+        <h1>턴 진행하기 4</h1>
+        <p><strong>③ 패쌍 숙성하기</strong>를 하려면 자신의 앞에 패쌍이 있어야 한다.</p>
+        <p>
+            가지고 있는 카드 한 장을 아무거나 골라 패쌍 위에 엎어놓으면 패쌍을 숙성한 것이 된다.<br>
+            숙성에 사용하는 카드를 <strong>숙성패</strong>라고 한다.
+        </p>
+        <div class="no-space">
+            <img src="./res/img/cards/28.svg" class="card">
+            <img src="./res/img/cards/12.svg" class="card">
+            <img src="./res/img/cards/back.svg" class="card" style="margin-left: 1rem;">
+        </div>
+        <p>
+            카드의 수에 해당하는 만큼 숙성패가 모이면, 패쌍패 중 하나를 보관할 수 있다.<br>
+        </p>
+        <p>
+            이때, 5, 6, 7, 8은 각각 1, 2, 3, 4장이 모여야 하고,<br>
+            공패는 한 장도 모이지 않아도 된다. <em>즉, 공패는 등록하는 즉시 보관할 수 있다.</em>
+        </p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Deque 5</h3>
+        <h1>턴 진행하기 5</h1>
+        <p>
+            숙성이 완료된 패쌍은 보관할 패쌍패를 제외하고 다시 중앙패의 아래쪽에 놓는다.<br>
+            또는, 버림패 위에 그대로 올릴 수 있다.
+        </p>
+        <p>보관패는 다른 사람이 볼 수 있도록 뒤집어서 자신의 앞에 놓는다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/28.svg" class="card-small">
+            <img src="./res/img/cards/12.svg" class="card-small">
+            <img src="./res/img/cards/back.svg" class="card-small" style="margin-left: 1rem;">
+            <img src="./res/img/cards/back.svg" class="card-small">
+            <img src="./res/img/cards/back.svg" class="card-small">
+            <img src="./res/img/cards/back.svg" class="card-small">
+        </div>
+        <p>&DownArrow;</p>
+        <div class="no-space">
+            <img src="./res/img/cards/28.svg" class="card-small">
+        </div>
+        <p>
+            다시 중앙패에 올리는 패들은 기존의 중앙패 아래쪽에<br>
+            <strong>중앙패-숙성패-패쌍패 순으로</strong> 넣어놓는다.
+        </p>
+        <p>자신의 턴이 끝나면 자신의 오른쪽에 앉은 사람이 다음 턴을 진행한다.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Da</h3>
+        <h1>“다” 선언</h1>
+        <p>
+            만약 자신이 가지고 있는 것과 같은 수의 패를 다른 사람이 버린 경우,<br>
+            “다”를 선언하고 해당 패를 가져올 수 있다.
+        </p>
+        <div>
+            <img src="./res/img/cards/01.svg" class="card" style="margin-right: 1rem;">
+            <img src="./res/img/cards/13.svg" class="card blur">
+            <img src="./res/img/cards/25.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card blur">
+            <img src="./res/img/cards/36.svg" class="card blur">
+        </div>
+        <p><em>다른 사람이 1패를 버렸을 때, 나도 1패를 가지고 있으므로 다 선언 가능!</em></p>
+        <p>
+            다를 선언하려면 “다”라고 <strong>소리내서</strong> 말해야 한다.<br>
+            여러 사람이 다를 외쳤을 때, 더 먼저 외친 사람이 카드를 가져가게 되기 때문이다.
+        </p>
+        <p>다를 선언한 패는 자신의 패와 함께 패쌍으로 만든다.</p>
+        <p>그리고 다를 선언한 사람의 오른쪽에 앉은 사람이 다음 턴을 진행한다.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Vanzie</h3>
+        <h1>승리</h1>
+        <p>가지고 있는 모든 카드가 끝나고, 패쌍도 없어진다면 즉시 게임에서 승리하게 된다.</p>
+        <p>이때, 플레이어들은 승리한 사람의 보관패를 보고 점수를 계산한다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/02.svg" class="card">
+            <img src="./res/img/cards/07.svg" class="card">
+            <img src="./res/img/cards/11.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+        </div>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempas 1</h3>
+        <h1>점수 계산 1</h1>
+        <p>
+            점수를 계산할 때에는 일단 보관패를 이루고 있는 카드의 <strong>수</strong>와 <strong>색</strong>,<br>
+            카드에 그려진 <strong>모양</strong>의 <strong>개수</strong>를 확인한다.
+        </p>
+        <div class="no-space">
+            <img src="./res/img/cards/02.svg" class="card">
+            <img src="./res/img/cards/07.svg" class="card">
+            <img src="./res/img/cards/11.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+        </div>
+        <p>4장의 카드가 위와 같이 이루어져 있다면 색이 3가지 종류이므로 <strong>색3종</strong>이라고 한다.</p>
+        <p>비슷한 방식으로 <strong>색1종</strong>, <strong>색2종</strong>, <strong>색4종</strong>이 있다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/02.svg" class="card-small">
+            <img src="./res/img/cards/06.svg" class="card-small">
+            <img src="./res/img/cards/07.svg" class="card-small">
+            <img src="./res/img/cards/08.svg" class="card-small">
+            <img src="./res/img/cards/11.svg" class="card-small" style="margin-left: 1rem;">
+            <img src="./res/img/cards/13.svg" class="card-small">
+            <img src="./res/img/cards/15.svg" class="card-small">
+            <img src="./res/img/cards/19.svg" class="card-small">
+            <img src="./res/img/cards/02.svg" class="card-small" style="margin-left: 1rem;">
+            <img src="./res/img/cards/11.svg" class="card-small">
+            <img src="./res/img/cards/18.svg" class="card-small">
+            <img src="./res/img/cards/29.svg" class="card-small">
+        </div>
+        <p><strong>공패는 색이 없는 것으로 치므로</strong>, 공패를 제외하고 종류를 계산해야 한다.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempas 2</h3>
+        <h1>점수 계산 2</h1>
+        <p>색 종류와 함께, 수 종류도 확인한다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/02.svg" class="card">
+            <img src="./res/img/cards/07.svg" class="card">
+            <img src="./res/img/cards/11.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+        </div>
+        <p>
+            위 패들은 2, 7, 3, 4로 이루어져 있으므로 <em>수4종</em>…일 것 같지만,<br>
+            1과 5, 2와 6, 3과 7, 4와 8은 같은 수로 취급하므로 <strong>수3종</strong>이다.
+        </p>
+        <p>비슷한 방식으로 <strong>수1종</strong>, <strong>수2종</strong>, <strong>수4종</strong>이 있다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/01.svg" class="card-small">
+            <img src="./res/img/cards/09.svg" class="card-small">
+            <img src="./res/img/cards/17.svg" class="card-small">
+            <img src="./res/img/cards/25.svg" class="card-small">
+            <img src="./res/img/cards/03.svg" class="card-small" style="margin-left: 1rem;">
+            <img src="./res/img/cards/09.svg" class="card-small">
+            <img src="./res/img/cards/15.svg" class="card-small">
+            <img src="./res/img/cards/21.svg" class="card-small">
+            <img src="./res/img/cards/12.svg" class="card-small" style="margin-left: 1rem;">
+            <img src="./res/img/cards/23.svg" class="card-small">
+            <img src="./res/img/cards/25.svg" class="card-small">
+            <img src="./res/img/cards/32.svg" class="card-small">
+        </div>
+        <p><strong>공패는 수가 없는 것으로 치므로</strong>, 공패를 제외하고 종류를 계산해야 한다.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempas 3</h3>
+        <h1>점수 계산 3</h1>
+        <p>수4종은 또 <strong>강연결</strong>과 <strong>약연결</strong>로 나뉜다.</p>
+        <p>
+            강연결은 1, 2, 3, 4나 5, 6, 7, 8로 수4종을 만든 경우,<br>
+            약연결은 나머지로 수4종을 만든 경우를 말한다.
+        </p>
+        <div class="no-space">
+            <img src="./res/img/cards/04.svg" class="card">
+            <img src="./res/img/cards/09.svg" class="card">
+            <img src="./res/img/cards/19.svg" class="card">
+            <img src="./res/img/cards/26.svg" class="card">
+        </div>
+        <div>
+            <img src="./res/img/cards/13.svg" class="card">
+            <img src="./res/img/cards/16.svg" class="card">
+            <img src="./res/img/cards/22.svg" class="card">
+            <img src="./res/img/cards/23.svg" class="card">
+        </div>
+        <p><em>위 두 경우는 모두 <strong>강연결 수4종</strong>이다.</em></p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempas 4</h3>
+        <h1>점수 계산 4</h1>
+        <p>카드에 그려진 그림으로도 종류를 계산한다.</p>
+        <p>
+            카드에 그려진 그림이 완벽한 원으로만 이루어져있다면 <strong>원패</strong>,<br>
+            완벽한 원이 하나도 없다면 <strong>선패</strong>,<br>
+            완벽한 원과 선이 섞여있다면 <strong>혼패</strong>,<br>
+            그림이 없다면 <strong>공패</strong>라고 한다.
+        </p>
+        <div class="no-space">
+            <img src="./res/img/cards/16.svg" class="card">
+            <img src="./res/img/cards/02.svg" class="card">
+            <img src="./res/img/cards/01.svg" class="card">
+            <img src="./res/img/cards/33.svg" class="card">
+        </div>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempas 5</h3>
+        <h1>점수 계산 5</h1>
+        <div class="no-space">
+            <img src="./res/img/cards/02.svg" class="card">
+            <img src="./res/img/cards/07.svg" class="card">
+            <img src="./res/img/cards/11.svg" class="card">
+            <img src="./res/img/cards/28.svg" class="card">
+        </div>
+        <p>위 패들은 각각 혼패, 혼패, 혼패, 원패이므로 <strong>양2종</strong>이다.</p>
+        <p>같은 방식으로 <strong>양1종</strong>, <strong>양3종</strong>, <strong>양4종</strong>도 있다.</p>
+        <p><strong>이 경우에는 공패도에 모양이 있는 것으로 본다! &star;&star;&star;</strong></p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempas 6</h3>
+        <h1>점수 계산 6</h1>
+        <div class="no-space">
+            <img src="./res/img/cards/07.svg" class="card">
+            <img src="./res/img/cards/16.svg" class="card">
+            <img src="./res/img/cards/22.svg" class="card">
+            <img src="./res/img/cards/25.svg" class="card">
+        </div>
+        <p>
+            위 보관패는 4개의 색으로 이루어져 있으므로 <strong>색4종</strong>,<br>
+            1, 6, 7, 8로 이루어져 있으므로 <strong>약연결 수4종</strong>,<br>
+            혼패, 원패, 혼패, 선패로 이루어져 있으므로 <strong>양3종</strong>이다.
+        </p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempas 7</h3>
+        <h1>점수 계산 7</h1>
+        <p>일단 4장을 모으면 기본 점수 2점이 제공된다.</p>
+        <p>이후, 다음 표에서 점수 계산 방법을 알아낸다.</p>
+        <table class="content-table">
+            <tr>
+                <th colspan="2"></th>
+                <th>모양</th>
+                <th>색</th>
+                <th>수</th>
+            </tr>
+            <tr>
+                <th rowspan="2">5종</th>
+                <th>강연결</th>
+                <td rowspan="2">-</td>
+                <td rowspan="2">^2</td>
+                <td>^3</td>
+            </tr>
+            <tr>
+                <th>약연결</th>
+                <td>^2</td>
+            </tr>
+            <tr>
+                <th rowspan="2">4종</th>
+                <th>강연결</th>
+                <td rowspan="2">^2</td>
+                <td rowspan="2">&times;3</td>
+                <td>^2</td>
+            </tr>
+            <tr>
+                <th>약연결</th>
+                <td>&times;3</td>
+            </tr>
+            <tr>
+                <th colspan="2">3종</th>
+                <td>&times;2</td>
+                <td>&times;2</td>
+                <td>&times;2</td>
+            </tr>
+            <tr>
+                <th colspan="2">2종</th>
+                <td>+1</td>
+                <td>+1</td>
+                <td>+1</td>
+            </tr>
+            <tr>
+                <th colspan="2">1종</th>
+                <td>-1</td>
+                <td>-2</td>
+                <td>-2</td>
+            </tr>
+        </table>
+        <p>만약 <strong>양2종, 색3종, 강연결 수4종</strong>이라면 각각 <strong>+1, &times;2, ^2</strong>인 것이다.</p>
+        <p>이때, 덧셈, 뺄셈을 가장 먼저 하고 그 다음에 곱셈, 그 다음에 제곱셈을 수행한다.</p>
+        <p>따라서 위 족보에 대한 점수는 \(((2+1) \times 3)^2\)로, <strong>36점</strong>이다.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempapryçie 1</h3>
+        <h1>점수 계산 연습 1</h1>
+        <p>다음 보관패의 점수를 계산해보자!</p>
+        <table>
+            <tr>
+                <td>
+                    <table class="content-table">
+                        <tr>
+                            <th colspan="2"></th>
+                            <th>모양</th>
+                            <th>색</th>
+                            <th>수</th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">5종</th>
+                            <th>강연결</th>
+                            <td rowspan="2">-</td>
+                            <td rowspan="2">^2</td>
+                            <td>^3</td>
+                        </tr>
+                        <tr>
+                            <th>약연결</th>
+                            <td>^2</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">4종</th>
+                            <th>강연결</th>
+                            <td rowspan="2">^2</td>
+                            <td rowspan="2">&times;3</td>
+                            <td>^2</td>
+                        </tr>
+                        <tr>
+                            <th>약연결</th>
+                            <td>&times;3</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">3종</th>
+                            <td>&times;2</td>
+                            <td>&times;2</td>
+                            <td>&times;2</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">2종</th>
+                            <td>+1</td>
+                            <td>+1</td>
+                            <td>+1</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">1종</th>
+                            <td>-1</td>
+                            <td>-2</td>
+                            <td>-2</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="padding-left: 2rem;">
+                    <div class="no-space">
+                        <img src="./res/img/cards/01.svg" class="card">
+                        <img src="./res/img/cards/03.svg" class="card">
+                        <img src="./res/img/cards/17.svg" class="card">
+                        <img src="./res/img/cards/21.svg" class="card">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="spoiler">
+            <p>
+                이 카드는 빨강과 초록, 두 색으로 이루어져 있으므로 <strong>색2종</strong>,<br>
+                1, 3, 1, 5로 이루어져 있으므로 <strong>수2종</strong>,<br>
+                각각 혼패, 선패, 혼패, 혼패이므로 <strong>양2종</strong>이다.
+            </p>
+            <p>따라서 <strong>색2종, 수2종, 양2종</strong>이므로 \(2+1+1+1 = 5\)점짜리 족보가 된다.</p>
+        </div>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempapryçie 2</h3>
+        <h1>점수 계산 연습 2</h1>
+        <p>다음 보관패의 점수를 계산해보자!</p>
+        <table>
+            <tr>
+                <td>
+                    <table class="content-table">
+                        <tr>
+                            <th colspan="2"></th>
+                            <th>모양</th>
+                            <th>색</th>
+                            <th>수</th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">5종</th>
+                            <th>강연결</th>
+                            <td rowspan="2">-</td>
+                            <td rowspan="2">^2</td>
+                            <td>^3</td>
+                        </tr>
+                        <tr>
+                            <th>약연결</th>
+                            <td>^2</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">4종</th>
+                            <th>강연결</th>
+                            <td rowspan="2">^2</td>
+                            <td rowspan="2">&times;3</td>
+                            <td>^2</td>
+                        </tr>
+                        <tr>
+                            <th>약연결</th>
+                            <td>&times;3</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">3종</th>
+                            <td>&times;2</td>
+                            <td>&times;2</td>
+                            <td>&times;2</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">2종</th>
+                            <td>+1</td>
+                            <td>+1</td>
+                            <td>+1</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">1종</th>
+                            <td>-1</td>
+                            <td>-2</td>
+                            <td>-2</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="padding-left: 2rem;">
+                    <div class="no-space">
+                        <img src="./res/img/cards/08.svg" class="card">
+                        <img src="./res/img/cards/13.svg" class="card">
+                        <img src="./res/img/cards/22.svg" class="card">
+                        <img src="./res/img/cards/33.svg" class="card">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="spoiler">
+            <p>
+                이 카드는 빨강, 노랑, 초록, 검정의 네 색으로 이루어져 있지만 공패는 색으로 치지 않으므로 <strong>색3종</strong>,<br>
+                8, 5, 6, 0으로 이루어져 있지만 공패는 수로 치지 않으므로 <strong>수3종</strong>,<br>
+                각각 선패, 선패, 혼패, 공패이므로 <strong>양3종</strong>이다.
+            </p>
+            <p>따라서 <strong>색3종, 수3종, 양3종</strong>이므로 \(2 \times 2 \times 2 \times 2 = 16\)점짜리 족보가 된다.</p>
+        </div>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Ava</h3>
+        <h1>아바 선언</h1>
+        <p>4개짜리 보관패를 모은 후에 바로 승리할 수도 있지만, <strong>아바</strong>를 선언할 수 있다.</p>
+        <p>아바를 선언하면 중앙패에서 패 한 장을 더 가져와 5개짜리 보관패를 만들어야 한다.</p>
+        <div class="no-space">
+            <img src="./res/img/cards/12.svg" class="card">
+            <img src="./res/img/cards/13.svg" class="card">
+            <img src="./res/img/cards/19.svg" class="card">
+            <img src="./res/img/cards/29.svg" class="card">
+            <img src="./res/img/cards/36.svg" class="card">
+        </div>
+        <p>
+            5개짜리 보관패를 만드는 경우 대부분의 경우 <strong>족보에 의한 점수가 더 높아지지만</strong>,<br>
+            5개짜리 보관패를 만드는 동안 다른 사람이 게임에서 승리할 수 있어서 <strong>위험하다.</strong>
+        </p>
+        <p>
+            아바를 선언하고 게임에서 승리하지 못하면 게임에서 승리한 사람에게<br>
+            <strong>패배한 사람의 점수까지를 모두 독박써야 하므로</strong> 또 다른 위험부담도 따른다.
+        </p>
+        <p>
+            아바 선언 시에는 <strong>5종 족보</strong>까지 만들 수 있다.<br>
+            5종 족보를 만들 때에는 공패의 수와 색을 인정하지만, 5장을 모아도 4종 족보까지는 4종 규칙을 따른다.
+        </p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Painaritempapryçie 3</h3>
+        <h1>점수 계산 연습 3</h1>
+        <p>다음 보관패의 점수를 계산해보자!</p>
+        <table>
+            <tr>
+                <td>
+                    <table class="content-table">
+                        <tr>
+                            <th colspan="2"></th>
+                            <th>모양</th>
+                            <th>색</th>
+                            <th>수</th>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">5종</th>
+                            <th>강연결</th>
+                            <td rowspan="2">-</td>
+                            <td rowspan="2">^2</td>
+                            <td>^3</td>
+                        </tr>
+                        <tr>
+                            <th>약연결</th>
+                            <td>^2</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">4종</th>
+                            <th>강연결</th>
+                            <td rowspan="2">^2</td>
+                            <td rowspan="2">&times;3</td>
+                            <td>^2</td>
+                        </tr>
+                        <tr>
+                            <th>약연결</th>
+                            <td>&times;3</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">3종</th>
+                            <td>&times;2</td>
+                            <td>&times;2</td>
+                            <td>&times;2</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">2종</th>
+                            <td>+1</td>
+                            <td>+1</td>
+                            <td>+1</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">1종</th>
+                            <td>-1</td>
+                            <td>-2</td>
+                            <td>-2</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="padding-left: 2rem;">
+                    <div class="no-space">
+                        <img src="./res/img/cards/16.svg" class="card">
+                        <img src="./res/img/cards/19.svg" class="card">
+                        <img src="./res/img/cards/22.svg" class="card">
+                        <img src="./res/img/cards/25.svg" class="card">
+                        <img src="./res/img/cards/35.svg" class="card">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="spoiler">
+            <p>
+                이 카드는 노랑, 초록, 파랑, 검정으로 이루어져 있지만 공패는 색으로 치지 않으므로 <strong>색3종</strong>,<br>
+                7, 3, 6, 1, 0으로 이루어져 있지만 공패는 수로 치지 않으므로 <em>약연결 수4종</em>...일 것 같지만<br>
+                5종 족보에서는 공패도 수로 치므로 <strong>약연결 수5종</strong>,<br>
+                각각 혼패, 선패, 혼패, 선패, 공패이므로 <strong>양3종</strong>이다.
+            </p>
+            <p>따라서 <strong>색3종, 약연결 수5종, 양3종</strong>이므로 \((2 \times 2 \times 2)^2 = 64\)점짜리 족보가 된다.</p>
+        </div>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Gäit!</h3>
+        <h1>끝!</h1>
+        <img src="./res/img/tabletop.jpg" style="width: 400px;">
+        <p>모든 설명이 끝났다! 이제 자야고시를 플레이할 수 있다.</p>
+        <p>자야고시는 점수 게임이므로 점당 몇 점씩 하여 내기를 할 수도 있다.</p>
+        <p>평균적으로 승리 당 <strong>16점</strong>정도를 얻게 되므로, 참고하여 게임을 진행하자.</p>
+    </div>
+</div>
+
+<div class="screen">
+    <div class="content">
+        <h3>Zaägox-Potysasisemüsie</h3>
+        <h1>자야고시 카드게임</h1>
+        <p>자야고시 플레이 방법 소개 프레젠테이션</p>
+        <p>끝</p>
+    </div>
+</div>
+
+<!-- 특정 키를 누르고 있을 때 블러 (blur, spoiler) 해제하는 기능 만들기 -->
+<!-- 페이지 번호 띄우는 기능 만들기 -->
+<!-- 사진 누르면 큰 화면으로 띄우기 -->
+
+</body>
+</html>
