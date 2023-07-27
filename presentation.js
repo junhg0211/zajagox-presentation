@@ -50,7 +50,7 @@ function previous() {
     updateHUD();
 }
 
-document.addEventListener('mousewheel', (event) => {
+window.addEventListener('wheel', (event) => {
     if (control)
         return;
 
@@ -61,7 +61,7 @@ document.addEventListener('mousewheel', (event) => {
     }
 });
 
-document.addEventListener('keydown', (event) => {
+window.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowRight' || event.key === ' ' || event.key === 'Enter' || event.key === 'PageDown' || event.key === 'ArrowDown') {
         next();
     } else if (event.key === 'ArrowLeft' || event.key === 'PageUp' || event.key === 'ArrowUp' || event.key === 'Backspace') {
@@ -79,7 +79,7 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-document.addEventListener('keyup', (event) => {
+window.addEventListener('keyup', (event) => {
     if (event.key === 'Shift') {
         document.querySelectorAll('.unhide').forEach(element => {
             element.classList.remove('unhide');
