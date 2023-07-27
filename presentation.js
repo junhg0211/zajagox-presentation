@@ -3,7 +3,7 @@ let currentScreen = 0;
 let unhide = false;
 let hud;
 let hudTimeout;
-let ctrl = false;
+let control = false;
 
 window.addEventListener('load', () => {
     screens = document.querySelectorAll('.screen');
