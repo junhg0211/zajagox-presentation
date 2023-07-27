@@ -33,21 +33,21 @@ function getHUD() {
 }
 
 function next() {
-    updateHUD();
-
     if (currentScreen < screens.length - 1) {
         screens[currentScreen].style.display = 'none';
         screens[++currentScreen].style.display = '';
     }
+
+    updateHUD();
 }
 
 function previous() {
-    updateHUD();
-
     if (currentScreen > 0) {
         screens[currentScreen].style.display = 'none';
         screens[--currentScreen].style.display = '';
     }
+
+    updateHUD();
 }
 
 document.addEventListener('mousewheel', (event) => {
